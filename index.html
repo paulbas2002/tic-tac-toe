@@ -6,21 +6,39 @@
   </head>
   <body>
     <svg id="game-board" width="80%" viewBox="0 0 600 600">
-<rect x="50" y="50" width="150" height="150" fill="orange" onclick="topLeft"/>
-<rect x="210" y="50" width="150" height="150" fill="orange" onclick="topMiddle"/>
-<rect x="370" y="50" width="150" height="150" fill="orange"onclick="topRight"/>
-<rect x="210" y="210" width="150" height="150" fill="orange" onclick="middleLeft"/>
-<rect x="370" y="210" width="150" height="150" fill="orange" onclick="middleMiddle"/>
-<rect x="50" y="370" width="150" height="150" fill="orange" onclick="middleRight"/>
-<rect x="210" y="370" width="150" height="150" fill="orange" onclick="bottomLeft"/>
-<rect x="370" y="370" width="150" height="150" fill="orange" onclick="bottomMiddle"/>
-<rect x="50" y="210" width="150" height="150" fill="orange" onclick="bottomRight"/>
-</svg>
 
+    <rect x="50" y="50" width="150" height="150" fill="black" onclick="pink1()"/>
+    <rect x="210" y="50" width="150" height="150" fill="black" onclick="pink2()"/>
+    <rect x="370" y="50" width="150" height="150" fill="black"onclick="pink3()"/>
+    <rect x="50" y="210" width="150" height="150" fill="black" onclick="pink4()"/>
+    <rect x="210" y="210" width="150" height="150" fill="black" onclick="pink5()"/>
+    <rect x="370" y="210" width="150" height="150" fill="black" onclick="pink6()"/>
+    <rect x="50" y="370" width="150" height="150" fill="black" onclick="pink7()"/>
+    <rect x="210" y="370" width="150" height="150" fill="black" onclick="pink8()"/>
+    <rect x="370" y="370" width="150" height="150" fill="black" onclick="pink9()"/>
 
+    <circle id="pink1"cx="120" cy="120" r="50" fill="none"/>
+    <circle id="pink2"cx="285" cy="120" r="50" fill="none"/>
+    <circle id="pink3"cx="445" cy="120" r="50" fill="none"/>
+    <circle id="pink4"cx="120" cy="285" r="50" fill="none"/>
+    <circle id="pink5"cx="285" cy="285" r="50" fill="none"/>
+    <circle id="pink6"cx="445" cy="285" r="50" fill="none"/>
+    <circle id="pink7"cx="120" cy="445" r="50" fill="none"/>
+    <circle id="pink8"cx="285" cy="445" r="50" fill="none"/>
+    <circle id="pink9"cx="445" cy="445" r="50" fill="none"/>
 
+    <circle id="blue1"cx="120" cy="120" r="50" fill="none"/>
+    <circle id="blue2"cx="285" cy="120" r="50" fill="none"/>
+    <circle id="blue3"cx="445" cy="120" r="50" fill="none"/>
+    <circle id="blue4"cx="120" cy="285" r="50" fill="none"/>
+    <circle id="blue5"cx="285" cy="285" r="50" fill="none"/>
+    <circle id="blue6"cx="445" cy="285" r="50" fill="none"/>
+    <circle id="blue7"cx="120" cy="445" r="50" fill="none"/>
+    <circle id="blue8"cx="285" cy="445" r="50" fill="none"/>
+    <circle id="blue9"cx="445" cy="445" r="50" fill="none"/>
 
-
+  </svg>
+    <h1>Project tic tac toe</h1>
     <script src="tic-tac-toe.js"></script>
   </body>
 </html>
